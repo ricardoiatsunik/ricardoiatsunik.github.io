@@ -16,7 +16,7 @@
   overflow: visible;
 }
 
-/* remove o link automático "View My GitHub Profile" */
-a[href*="github.com/ricardoiatsunik"]:not(.platform) {
+/* remove apenas o link automático do tema */
+.sidebar a[href*="github.com/ricardoiatsunik"]:not([rel="me"]) {
   display: none;
 }
