@@ -1,20 +1,17 @@
-/* Fix: title being clipped in header/sidebar (theme override-safe) */
-header h1,
-header h1 a,
-.site-title,
-.site-title a,
+/* Só ajusta o texto do título (sem mexer no layout do tema) */
 .sidebar h1,
-.sidebar h1 a {
-  font-size: 1.85rem;   /* ajuste fino */
-  line-height: 1.25;    /* dá altura suficiente pra não cortar */
-  overflow: visible;    /* evita clipping */
+.sidebar h1 a,
+.site-title,
+.site-title a {
+  font-size: 1.70rem;     /* ajuste fino: menor sem mudar posição */
+  line-height: 1.1;
+  white-space: nowrap;    /* 1 linha */
+  display: inline-block;  /* evita “corte” por line-box */
+  max-width: 100%;
 }
 
-/* Se o container do header estiver "apertando", isso garante espaço */
-header,
-.sidebar,
-.site-header {
+/* Caso o tema aplique overflow hidden DIRETO no link/título */
+.sidebar h1 a,
+.site-title a {
   overflow: visible;
-  padding-top: 0.35rem;
-  padding-bottom: 0.35rem;
 }
