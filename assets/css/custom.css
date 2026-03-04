@@ -1,0 +1,11 @@
+/* Ajuste sidebar */
+.sidebar .site-title,
+.sidebar h1 {
+  white-space: nowrap;
+  font-size: 1.4rem;
+  overflow: visible;
+}
+
+.sidebar {
+  min-width: 260px;
+}

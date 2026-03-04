@@ -1,0 +1,18 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.vendor/
+vendor/
+
+# Bundler
+.bundle/
+Gemfile.lock
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
