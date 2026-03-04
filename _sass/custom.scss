@@ -15,3 +15,8 @@
 .site-title a {
   overflow: visible;
 }
+
+/* remove o link automático "View My GitHub Profile" */
+a[href*="github.com/ricardoiatsunik"]:not(.platform) {
+  display: none;
+}
