@@ -21,8 +21,7 @@
 title: "Ricardo Iatsunik"
 email: riatsunik@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  📚 SOC | Pentest | Hardening
-logo: /assets/img/riatsunik.png
+  👨🏻‍💻SInfoSec
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ricardoiatsunik.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -33,8 +32,6 @@ plugins:
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic@main
 
 color-scheme: auto
-
-logo: 
 
 
 # Exclude from processing.
