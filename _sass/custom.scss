@@ -16,13 +16,3 @@
   overflow: visible;
 }
 
-/* Centralizar conteúdo da sidebar vertical e horizontalmente */
-
-.sidebar {
-  display: flex;
-  justify-content: center;   /* horizontal */
-  align-items: center;       /* vertical */
-  text-align: center;
-  min-height: 100vh;
-  flex-direction: column;
-}
